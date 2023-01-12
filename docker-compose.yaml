@@ -1,0 +1,17 @@
+version: '3.8'
+services:
+
+  mongo:
+    image: arm64v8/mongo
+    restart: unless-stopped
+    command: mongod --auth
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: ${MONGO_ROOT_USERNAME}
+      MONGO_INITDB_ROOT_PASSWORD: ${MONGO_ROOT_PASSWORD}
+    ports:
+      - 27017:27017
+    volumes:
+      - mongoData:/data/db
+volumes:
+  mongo-data:
+    driver: local

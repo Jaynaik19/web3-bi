@@ -1,0 +1,21 @@
+# Web3 Data Engg & Analytics
+
+The focus areas will be
+
+- Dune Analytics: Protocol analysis
+- Support Analysis for protocols from dune with data from multiple sources
+  - Data Engg: data sources API pull
+  - MongDB + Python FastAPI setup
+  - cron setup on Prefect
+- Dashboard setup: metabase in Docker
+- Everything in Docker and running locally
+
+## Analysis
+
+1. Arbitrum
+2. The Graph
+3. Gelato
+
+### About me
+
+I am a data devloper with 3 year experience in crpyto doing data engineering and analytics.
