@@ -10,12 +10,39 @@ The focus areas will be
 - Dashboard setup: metabase in Docker
 - Everything in Docker and running locally
 
+About
+I am a data devloper with 3 year experience in crpyto doing data engineering and analytics.
+
 ## Analysis
 
 1. Arbitrum
 2. The Graph
 3. Gelato
 
-### About me
+### Arbitrum
 
-I am a data devloper with 3 year experience in crpyto doing data engineering and analytics.
+Insights from other dashboards
+
+- [Dashboard: arbitrum-metrics](https://dune.com/Henrystats/arbitrum-metrics)
+
+- Possbile Analysis
+  - Overview of accounts created
+    - Growth | rate of increase
+      - There was a rumor of increased activity due to token airdrop
+        - Analysis can be done to see one-Off activity based on this
+          - Old transactions and new user analysis, can alse be done to see the growth
+    - Transaction Activity
+      - The main take here is to compare with other L2 and ETH
+        - The reason why Arbitrum has taken off is < fees in comparison
+        - Metrics like fees saved till date if done on ETH
+        - Comparision to Matic for general metrics also works
+      - Smart contract data analysis
+    - Startups launched on
+    - Utilty protocols launced here
+    - Cross chain activity
+    - Are there users using similar protocol on other networks
+    - What sets Arbitrum apart
+    - Does the Roadmap set by the team feels to heading in the right direction
+  - Data Sources
+    - Dune
+    - DefiLamma
